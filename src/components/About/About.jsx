@@ -39,14 +39,15 @@ const About = () => {
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
                   {paragraphOne ||
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                    'Hello, and welcome to my portfolio website.  I am blessed and grateful that ou are here.  I have a passion for helping Small Busnisses WIN.  By reducing everyday business expenses and reinvesting the savings into strategic digital marketing campaigns, I help businesses compete with Big Business.'}
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphTwo ||
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                    'One of the most effective ways to help Small Business grow is by building full stack web applications for their business.  This gives your business the look and feel of Big Business!  It also allows Small Businesses the safe functionality as large businesses.  The best part is, in most cases, I can find a way to reduce your expences so your new web presense will no increase your costs!'}
                 </p>
                 <p className="about-wrapper__info-text">
-                  {paragraphThree || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
+                  {paragraphThree ||
+                    'Check out my Website by clicking the button below.  You will also see a host of other services my company offers!'}
                 </p>
                 {resume && (
                   <span className="d-flex mt-3">
@@ -54,9 +55,9 @@ const About = () => {
                       target="_blank"
                       rel="noopener noreferrer"
                       className="cta-btn cta-btn--resume"
-                      href={resume}
+                      href="https://sbhelpgroup.com/"
                     >
-                      Resume
+                      SBHelpGroup
                     </a>
                   </span>
                 )}
